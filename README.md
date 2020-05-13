@@ -2,13 +2,13 @@
 
 [这里可以一篇入门教程](https://blog.csdn.net/cdnight/article/details/47444141)
 
-[这里推荐一个中文官网](https://www.phaser-china.com/tutorial-detail-8.html) 业务有时间可以看看那几个视频教程
+[这里推荐一个中文官网](https://www.phaser-china.com/tutorial-detail-8.html) 业余有时间可以看看那几个视频教程
 
-
+时间仓促，难免有错漏，谢指出！！！
 
 下面讲讲业务上实现这个树叶摇动的动画
 
-<img src='https://github.com/Paulhejia/phaser-leaves/blob/master/assets/bg.png' width="375" />
+[demo](https://paulhejia.github.io/phaser-leaves/)
 
 ```js
 .目录结构
