@@ -8,8 +8,7 @@
 
 下面讲讲业务上实现这个树叶摇动的动画
 
-![](https://github.com/Paulhejia/phaser-leaves/blob/master/assets/bg.png)
-
+<img src='https://github.com/Paulhejia/phaser-leaves/blob/master/assets/bg.png' width="375" />
 
 
 .目录结构
