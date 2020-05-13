@@ -200,21 +200,21 @@ function onTreeUp () {
 
 ## 树叶粒子化
 
-```
-	// 设置 发射器的位置
-	emitter = game.add.emitter(game.world.centerX, game.world.centerY - 100, 100);
-    // 粒子发射区域的range
-    emitter.width = 200;  
-    // 创建粒子 leaf
-    emitter.makeParticles('leaf');
-    // 设置树叶速度 x方向： -300 ， y方向： 30  https://www.phaser-china.com/docs/src_particles_arcade_Emitter.js.html
-    emitter.minParticleSpeed.setTo(-300, 30);
-    emitter.maxParticleSpeed.setTo(300, 100);
-    // 设置树叶大小在 0.1-0.6之间
-    emitter.minParticleScale = 0.1;    
-    emitter.maxParticleScale = 0.6;
-    // 重力 400
-    emitter.gravity = 400;
+```js
+// 设置 发射器的位置
+emitter = game.add.emitter(game.world.centerX, game.world.centerY - 100, 100);
+// 粒子发射区域的range
+emitter.width = 200;  
+// 创建粒子 leaf
+emitter.makeParticles('leaf');
+// 设置树叶速度 x方向： -300 ， y方向： 30  https://www.phaser-china.com/docs/src_particles_arcade_Emitter.js.html
+emitter.minParticleSpeed.setTo(-300, 30);
+emitter.maxParticleSpeed.setTo(300, 100);
+// 设置树叶大小在 0.1-0.6之间
+emitter.minParticleScale = 0.1;    
+emitter.maxParticleScale = 0.6;
+// 重力 400
+emitter.gravity = 400;
 ```
 
 
@@ -239,7 +239,7 @@ maxParticles: 此发射器中的粒子总数
 
 然后在点击树的时候让发射器开始发射
 
-```
+```js
 function onTreeUp () {
     // 数摇动动画
     ... 
