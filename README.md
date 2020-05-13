@@ -146,9 +146,10 @@ key: 对应preload 定义时的key name
 
 frame: 当图片为 精灵表时 （spriteSheet）, 可以指定现实某一帧
 
-```tree.animations.add('swing', [0,1,2,3,4,5,6,7,8,9,10,11], 18, true);``
 
 
+
+```tree.animations.add('swing', [0,1,2,3,4,5,6,7,8,9,10,11], 18, true);```
 
 ## 让树水平居中
 
@@ -261,7 +262,7 @@ quantity： 每次发多少粒子
 
 
 
-# 下面提供大致去学习的方向
+# 下面是我学习过程中总结的学习体系
 
 生命周期（preload,  created,  updated,  render 等等）
 
@@ -279,6 +280,6 @@ quantity： 每次发多少粒子
 
 事件
 
-对象池 回收与复用，不会内存泄漏
+对象池 （回收与复用，防止内存泄漏，闪退）
 
 
