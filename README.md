@@ -50,7 +50,7 @@ preload ： 一般用于预加载静态资源，图片音视频动画等等
 
 create : 一旦预加载 preload完成，就会调用create, 如果没有预加载preload方法，则create是在您的应用中调用的第一个方法
 
-#preload @function
+# preload @function
 
 ```js
 function preload() {
@@ -97,7 +97,7 @@ frameMax: Sprite工作表中有多少帧,
 
 
 
-#create
+# create
 
 ```js
 // 加载完静态资源后执行
@@ -135,7 +135,7 @@ function create() {
 
 game.add.image 把 image 精灵加入到game场景里
 
-##图片精灵添加
+## 图片精灵添加
 
 #### image(x, y, key, frame) [传送门](https://www.phaser-china.com/docs/Phaser.GameObjectCreator.html#group)
 
@@ -151,19 +151,16 @@ frame: 当图片为 精灵表时 （spriteSheet）, 可以指定现实某一帧
 
 
 
-##让树水平居中
+## 让树水平居中
 
-####anchor.setTo
+#### anchor.setTo
 
 tree.anchor.setTo(0.5, 0.5);  //把锚点设为 图片的中心，默认是左上角， 这样设置 x 轴位置为 game.world.centerX 就可以实现水平居中
 
-![](![](https://github.com/Paulhejia/phaser-leaves/blob/master/docs/tree-anchor.png))
+![](https://github.com/Paulhejia/phaser-leaves/blob/master/docs/tree-anchor.png)
 
 
-
-
-
-##树晃动的动画声明
+## 树晃动的动画声明
 
 #### animations.add(name, frames, frameRate, loop, useNumericIndex)  [传送门](https://www.phaser-china.com/docs/Phaser.AnimationManager.html#toc15)
 
@@ -179,10 +176,7 @@ useNumericIndex: 本节暂时没用到
 
 *ps： 结合 tree.play('swing') 使用*
 
-![](![](https://github.com/Paulhejia/phaser-leaves/blob/master/docs/tree-sheet.png))
-
-
-
+![](https://github.com/Paulhejia/phaser-leaves/blob/master/docs/tree-sheet.png)
 
 
 ## 绑定树的点击事件
@@ -205,7 +199,7 @@ function onTreeUp () {
 }
 ```
 
-##树叶粒子化
+## 树叶粒子化
 
 ```
 		// 设置 发射器的位置
