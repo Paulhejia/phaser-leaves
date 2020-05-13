@@ -10,7 +10,7 @@
 
 <img src='https://github.com/Paulhejia/phaser-leaves/blob/master/assets/bg.png' width="375" />
 
-
+```js
 .目录结构
 ├── assets 
 │   ├── bg.png  // 背景
@@ -20,7 +20,7 @@
 ├── libs // 库文件
 │   └── phaser.min.js 
 └── main.js // 主入口文件
-
+```
 
 
 通过 new 一个 phaser 实例创建一个宽 750 *  高1334 的 canvas画布挂载到 html的 #phaser-example 标签上，
@@ -201,8 +201,8 @@ function onTreeUp () {
 ## 树叶粒子化
 
 ```
-		// 设置 发射器的位置
-		emitter = game.add.emitter(game.world.centerX, game.world.centerY - 100, 100);
+	// 设置 发射器的位置
+	emitter = game.add.emitter(game.world.centerX, game.world.centerY - 100, 100);
     // 粒子发射区域的range
     emitter.width = 200;  
     // 创建粒子 leaf
